@@ -1,11 +1,11 @@
 import React from 'react';
 import Head from 'next/head';
 import { useQuery } from '@apollo/react-hooks';
-import JOBS_QUERY from '../graphql/jobs.query';
+import ARTISTS_QUERY from '../graphql/index.query';
 
 const Home = () => {
   // Create a query hook
-  const { data, loading, error } = useQuery(JOBS_QUERY);
+  const { data, loading, error } = useQuery(ARTISTS_QUERY);
 
   if (loading) {
     return <p>Loading...</p>;
