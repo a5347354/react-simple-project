@@ -1,0 +1,1 @@
+# Stateless child component send value to stateless parent component
