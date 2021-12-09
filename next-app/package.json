@@ -9,7 +9,7 @@
     "lint": "eslint pages/**/*.js components/*.js --fix"
   },
   "dependencies": {
-    "next": "9.4.0",
+    "next": "11.1.3",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   },
